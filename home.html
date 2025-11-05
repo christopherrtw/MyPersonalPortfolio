@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Home">
+    <title>Home - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👤</text></svg>">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Luntha C. Dzimadzi</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Academic Results <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown">
+                        <a href="year1.html">Year 1 Results</a>
+                        <a href="year2.html">Year 2 Results</a>
+                        <a href="year3.html">Year 3 Results</a>
+                        <a href="year4.html">Year 4 Results</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="hobbies.html" class="nav-link">Hobbies</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="career.html" class="nav-link">Career Goals</a></li>
+                <li class="nav-item"><a href="interests.html" class="nav-link active">Interests</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h1 class="page-title">Welcome to My Portfolio!</h1>
+            
+            <div class="welcome-message">
+                <h2>Hello, I'm Luntha Christopher Dzimadzi</h2>
+                <p>Welcome to my personal portfolio website. Today is <span id="datetime" class="datetime"></span></p>
+            </div>
+            
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="profilephoto.jpg" alt="Profile Picture">
+                </div>
+                <div class="profile-bio">
+                    <h2>About Me</h2>
+                    <p>I am a third-year Information Systems and Technology student specializing in AI and data science, with a strong command of programming languages including JavaScript, Python, and C++. I also bring hands-on experience in video production, including VFX and SFX. This unique combination allows me to approach problem-solving from both a data-driven and a creative perspective. I am driven to create innovative solutions and am constantly exploring new technologies through personal projects and independent learning.</p>
+                </div>
+            </div>
+            
+            <div class="slideshow-container">
+                <div class="slides">
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Coding Project">
+                        <div class="slide-caption"></div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Tech Conference">
+                        <div class="slide-caption"></div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Project Demo">
+                        <div class="slide-caption"></div>
+                    </div>
+                    <div class="slide">
+                        <img src="vfxx.jpeg" alt="Project Demo">
+                        <div class="slide-caption"></div>
+                    </div>
+                    <div class="slide">
+                        <img src="12.jpg" alt="Project Demo">
+                        <div class="slide-caption"></div>
+                    </div>
+                </div>
+                
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+                
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            
+            <div class="video-section">
+                <h3>Website Navigation Guide</h3>
+                <video controls>
+                    <source src="WEB VID.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p>Email: lunthadzimadzi1017@gmail.com</p>
+                    <p>Phone: +260 767430719</p>
+                    <p>Location: Lusaka, Zambia</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="home.html">Home</a></p>
+                    <p><a href="hobbies.html">Hobbies</a></p>
+                    <p><a href="gallery.html">Gallery</a></p>
+                    <p><a href="career.html">Career Goals</a></p>
+                    <p><a href="interests.html">Interests</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@lunthachris" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Luntha Christopher Dzimadzi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 

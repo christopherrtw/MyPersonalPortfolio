@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Interests and Passions">
+    <title>Interests - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👤</text></svg>">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Luntha C. Dzimadzi</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Academic Results <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown">
+                        <a href="year1.html">Year 1 Results</a>
+                        <a href="year2.html">Year 2 Results</a>
+                        <a href="year3.html">Year 3 Results</a>
+                        <a href="year4.html">Year 4 Results</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="hobbies.html" class="nav-link">Hobbies</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="career.html" class="nav-link">Career Goals</a></li>
+                <li class="nav-item"><a href="interests.html" class="nav-link active">Interests</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="interest-category">
+            <div class="interest-header" style="background: linear-gradient(135deg, #000000 0%, #26ff00 100%);">
+                <i class="fas fa-music interest-icon"></i>
+                <h2>Music</h2>
+            </div>
+            <div class="interest-content">
+                <div class="interest-text">
+                    <p>For me, music is my constant companion and creative outlet. I have a very diverse taste that ranges from R&B to Rock. However, I enjoy listening to SA/UK underground the most. This includes artists such as Jaykatana, K1llbrady, YT, Fimiguerrero and Babylowsk1 among others.</p>
+                    <p>I'm fascinated by the technical aspects of music production and how technology has transformed the way we create and consume music. This interest complements my Information Systems studies by giving me insights into digital media systems and user experience design.</p>
+
+                        <a href="https://open.spotify.com/playlist/4ma5xV1DCgol06mBGZPDR0?si=995bee9badee4dbb" class="spotify-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-spotify spotify-icon"></i>
+                            Listen To My Spotify Playlist
+                        </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="interest-category">
+                <div class="interest-header" style="background: linear-gradient(135deg, #000000 0%, #09008c 100%);">
+                    <i class="fas fa-film interest-icon"></i>
+                    <h2>Video Editing & VFX</h2>
+                </div>
+                <div class="interest-content">
+                    <div class="interest-text">
+                        <p>Video editing and visual effects are creative passions that allow me to tell stories through visual media. I enjoy the technical challenge of transforming raw footage into polished content and the creative process of visual storytelling.</p>
+                        <p>This interest directly complements my Information Systems studies by enhancing my understanding of multimedia systems, digital content creation, and user interface design principles.</p>
+                        
+                        <div class="video-portfolio">
+                            <h3>Videos I've Edited</h3>
+                            <div class="video-grid">
+                                <!-- Video 1 -->
+                                <div class="video-item">
+                                    <div class="video-thumbnail" onclick="openVideoModal('video1')">
+                                        <i class="fas fa-play-circle"></i>
+                                    </div>
+                                    <div class="video-info">
+                                        <h4>YT - All Da Same</h4>
+                                        <p>This is a music video that i edited for one of my favourite artists, YT, shot by moi.digital</p>
+                                        <div class="video-tags">
+                                            <span class="video-tag">Frutiger-Metro</span>
+                                            <span class="video-tag">After Effects</span>
+                                            <span class="video-tag">Transitions</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Video 2 -->
+                                <div class="video-item">
+                                    <div class="video-thumbnail" onclick="openVideoModal('video2')">
+                                        <i class="fas fa-play-circle"></i>
+                                    </div>
+                                    <div class="video-info">
+                                        <h4>Feng - M.I.A</h4>
+                                        <p>This is a Music Video I edited for Feng, an underground artist from the UK</p>
+                                        <div class="video-tags">
+                                            <span class="video-tag">Distorted</span>
+                                            <span class="video-tag">After Effects</span>
+                                            <span class="video-tag">VFX</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Video 3 -->
+                                <div class="video-item">
+                                    <div class="video-thumbnail" onclick="openVideoModal('video3')">
+                                        <i class="fas fa-play-circle"></i>
+                                    </div>
+                                    <div class="video-info">
+                                        <h4>For a Fact - Fimiguerrero & Dom Corleo</h4>
+                                        <p>My third music video edited for Fimiguerrero and Dom Corleo</p>
+                                        <div class="video-tags">
+                                            <span class="video-tag">Music</span>
+                                            <span class="video-tag">Underground</span>
+                                            <span class="video-tag">After Effects</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Video Modals -->
+            <div id="video1-modal" class="video-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>YT - All Da Same</h3>
+                        <button class="close-modal" onclick="closeVideoModal('video1')">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-video-container">
+                            <iframe src="AE - YT - 3.mp4" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-description">
+                            <p>This is a music video that i edited for one of my favourite artists, YT, shot by moi.digital.</p>
+                            <p><strong>Software used:</strong> Adobe Premiere Pro, After Effects, DaVinci Resolve</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="video2-modal" class="video-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Feng - M.I.A</h3>
+                        <button class="close-modal" onclick="closeVideoModal('video2')">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-video-container">
+                            <iframe src="AE - Feng - 7.mp4" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-description">
+                            <p>This is a Music Video I edited for Feng, an underground artist from the UK.</p>
+                            <p><strong>Software used:</strong> Adobe After Effects, Premiere Pro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="video3-modal" class="video-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>For a Fact - Fimiguerrero & Dom Corleo</h3>
+                        <button class="close-modal" onclick="closeVideoModal('video3')">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-video-container">
+                            <iframe src="AE - FimiXDom - 6.mp4" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-description">
+                            <p>Another music video that I edited for 2 artists in the underground music scene. Fimiguerrero, who is from America and Dom Corleo who is from the USA.</p>
+                            <p><strong>Software used:</strong> Adobe Premiere Pro, After Effects, Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="interest-category">
+                <div class="interest-header" style="background: linear-gradient(135deg, #000000 20%, #ffffff 80%);">
+                    <i class="fas fa-gamepad interest-icon"></i>
+                    <h2>Video Games</h2>
+                </div>
+                <div class="interest-content">
+                    <div class="interest-image">
+                        <img src="GAME.jpg" alt="Video Games">
+                    </div>
+                    <div class="interest-text">
+                        <p>Video games have been a part of my life since childhood, evolving from simple entertainment to a fascination with game design, storytelling, and the technology behind interactive experiences.</p>
+                        <p>My interest in gaming has naturally led to curiosity about game development, user experience design, and the business models of the gaming industry - all areas that intersect with Information Systems and Technology.</p>
+                        <P>Some of my favourite games include Fifa/EA, Grand Theft Auto, Saints Row and Call of Duty among others</P>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p>Email: lunthadzimadzi1017@gmail.com</p>
+                    <p>Phone: +260 767430719</p>
+                    <p>Location: Lusaka, Zambia</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="home.html">Home</a></p>
+                    <p><a href="hobbies.html">Hobbies</a></p>
+                    <p><a href="gallery.html">Gallery</a></p>
+                    <p><a href="career.html">Career Goals</a></p>
+                    <p><a href="interests.html">Interests</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@lunthachris" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Luntha Christopher Dzimadzi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
